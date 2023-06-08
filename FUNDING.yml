@@ -1,5 +1,10 @@
 # These are supported funding model platforms
 # Help buy a coffee to improve it :)
 
-github: markbattistella
-custom: ['https://www.paypal.me/markbattistella/6AUD', 'https://www.buymeacoffee.com/markbattistella']
+# github: markbattistella
+ko_fi: markbattistella
+custom: [
+  'https://www.paypal.me/markbattistella/5AUD',  # coffee
+  'https://www.paypal.me/markbattistella/10AUD', # pizza
+  'https://www.paypal.me/markbattistella/20AUD'  # dinner
+]
