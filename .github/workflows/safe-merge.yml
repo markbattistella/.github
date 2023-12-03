@@ -1,13 +1,17 @@
-name: Markdown linter
+name: Markdown file linter
+
 on:
+  workflow_dispatch:
   pull_request:
+
 jobs:
-  job1:
-    name: Markdown Linter
+
+  md-linter:
+    name: Lint markdown
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Markdown Lint
-        uses: ruzickap/action-my-markdown-linter@v1
+      - name: Markdown Linter
+      - uses: ruzickap/action-my-markdown-linter@v1
         with:
-          config_file: '.markdownlint.json'
+          config_file: .markdownlint.json

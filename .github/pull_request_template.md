@@ -3,7 +3,7 @@
 ## Description
 
 <!--
-    >> Please detail what this Pull Request entails
+    Please detail what this Pull Request contains:
     - what did you change?
     - what was fixed?
     - anything major deprecated or added
@@ -27,8 +27,7 @@
 
 ## Checklist
 
-- [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own document
-- [ ] I updated the change log file linking to the relevant sections
+- [ ] I updated the change log file (if present) linking to the relevant sections
 - [ ] My changes generate no new warnings
 - [ ] I have checked corrected any misspellings
