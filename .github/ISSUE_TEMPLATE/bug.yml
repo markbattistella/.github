@@ -60,8 +60,8 @@ body:
       placeholder: |
         **OS:** [e.g., Windows / macOS / iOS / Android]
         **Version:** [e.g., iOS 14.3 / Android 10 / Windows 10]
-      validations:
-        required: true
+    validations:
+      required: true
 
   - type: textarea
     attributes:
@@ -69,16 +69,16 @@ body:
       description: Anything extra to add? Information that didn't fit into a topic above?
       placeholder: |
         Any additional information that might be helpful in diagnosing the issue.
-      validations:
-        required: false
+    validations:
+      required: false
 
   - type: textarea
     attributes:
       label: Logs and error messages
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
       render: shell
-      validations:
-        required: false
+    validations:
+      required: false
 
   - type: checkboxes
     id: terms
