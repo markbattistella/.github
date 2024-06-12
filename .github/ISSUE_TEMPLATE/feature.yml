@@ -1,0 +1,77 @@
+name: Feature request
+
+description: Suggest an idea for this project to enhance its functionality and user experience.
+
+title: '✨ Feature Request'
+
+labels: ["enhancement"]
+
+assignees: []
+
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to provide a feature request!
+
+        Please give as much detail as possible about your idea. The more context and information provided, the better we can understand and evaluate your suggestion.
+
+        If English is not your first language, please don't hesitate to use your native language to make it easier for yourself.
+
+        > [!TIP]
+        > Please attach screenshots, screen captures, or any visual mediums as seeing your idea might make it easier to implement.
+
+  - type: textarea
+    attributes:
+      label: Is your feature request related to a problem?
+      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+      placeholder: "Describe the problem or pain point you're facing."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Describe the solution you'd like
+      description: A clear and concise description of what you want to happen.
+      placeholder: "Describe your ideal solution or feature."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Describe alternatives you've considered
+      description: A clear and concise description of any alternative solutions or features you've considered.
+      placeholder: "Describe any alternative solutions or features you've considered."
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Add any other context about the feature request here.
+      placeholder: "Provide any additional context, or information."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: other_labels
+    attributes:
+      label: Other Labels
+      description: Select additional labels if applicable.
+      options:
+        - label: Documentation
+          required: false
+        - label: UX
+          required: false
+        - label: API
+          required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this feature request, you agree to follow our Code of Conduct.
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

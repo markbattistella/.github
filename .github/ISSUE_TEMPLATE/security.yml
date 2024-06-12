@@ -1,0 +1,68 @@
+name: Security Issue
+
+description: Report a security vulnerability in a confidential manner.
+
+title: '🔒 Security Issue'
+
+labels: ["security"]
+
+assignees: []
+
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a potential security issue!
+
+        Please provide as much detail as possible to help us investigate and resolve the issue.
+
+        > [!CAUTION]
+        > Remember to mask any important and private information.
+
+        > [!IMPORTANT]
+        > This issue will be treated confidentially.
+
+  - type: textarea
+    attributes:
+      label: Description
+      description: Describe the security issue in detail.
+      placeholder: "Provide a clear and concise description of the security issue."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Provide a step-by-step process to reproduce the security issue.
+      placeholder: |
+        1. First, I did this...
+        2. Then, I did that...
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Potential impact
+      description: Describe the potential impact of the security issue.
+      placeholder: "Describe the potential impact or consequences of the security issue."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Mitigation
+      description: Suggest any potential fixes or mitigations for the issue.
+      placeholder: "Provide suggestions for mitigating or fixing the issue."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct.
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

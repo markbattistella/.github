@@ -1,0 +1,64 @@
+name: Support Request
+
+description: Request help or support with using the project.
+
+title: '🙋 Support Request'
+
+labels: ["support"]
+
+assignees: []
+
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out for support!
+
+        Please provide as much detail as possible about your issue so we can assist you effectively.
+
+  - type: textarea
+    attributes:
+      label: Describe the issue
+      description: Describe the issue you are facing. Include any relevant error messages or steps to reproduce the problem.
+      placeholder: "Describe your issue in detail."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      description: Provide a step-by-step process to reproduce the issue, if applicable.
+      placeholder: |
+        1. First, I did this...
+        2. Then, I did that...
+        ...
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Environment
+      description: Provide details about your environment (e.g., OS, software version).
+      placeholder: |
+        **OS:** [e.g., Windows / macOS / Linux]
+        **Version:** [e.g., 1.0.0]
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Additional context
+      description: Provide any additional context or information that might be helpful.
+      placeholder: "Any additional context or information."
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this request, you agree to follow our Code of Conduct.
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true

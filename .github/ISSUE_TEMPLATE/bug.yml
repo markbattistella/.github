@@ -1,0 +1,90 @@
+name: Bug report
+
+description: Report a bug in the code to help aid in fixing, identifying, and resolving the issue.
+
+title: '🐛 Bug Report'
+
+labels: ["bug", "triage"]
+
+assignees: []
+
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+        Please provide as much information, imagery, and process as possible when reporting a bug. The more detail there is in the report, the easier it can be to reproduce and eventually fix.
+
+        Where possible, please provide a step-by-step process of how you encountered the bug, what was occurring, or details that may be helpful to debug.
+
+        If English is not your first language, please don't hesitate to use your native language to make it easier for yourself.
+
+        > [!TIP]
+        > Please attach screenshots, screen captures, or any visual mediums as seeing the issue may help in resolving it quicker.
+
+  - type: textarea
+    attributes:
+      label: Describe the bug
+      description: Please be as clear and concise as possible.
+      placeholder: "The app crashed when I tapped on the refresh button in airplane mode."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Reproduction steps
+      description: "How do you trigger this bug? Please walk us through it step-by-step."
+      placeholder: |
+        1. First, I opened the app
+        2. Then I turned on airplane mode
+        3. Next, I tapped on the refresh button
+        ...
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behaviour
+      description: What should have happened? What did you expect to occur?
+      placeholder: |
+        When I refreshed the app, it should have notified me that it had no internet. Maybe it should have asked to check my settings?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Device information
+      description: Please provide details about your device and environment.
+      placeholder: |
+        **OS:** [e.g., Windows / macOS / iOS / Android]
+        **Version:** [e.g., iOS 14.3 / Android 10 / Windows 10]
+      validations:
+        required: true
+
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Anything extra to add? Information that didn't fit into a topic above?
+      placeholder: |
+        Any additional information that might be helpful in diagnosing the issue.
+      validations:
+        required: false
+
+  - type: textarea
+    attributes:
+      label: Logs and error messages
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+      validations:
+        required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our Code of Conduct.
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
