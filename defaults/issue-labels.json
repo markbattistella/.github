@@ -1,0 +1,37 @@
+[
+  {
+    "name": "bug",
+    "color": "d73a4a",
+    "description": "Unexpected issues like crashes, UI glitches, or incorrect behavior in the application."
+  },
+  {
+    "name": "feature",
+    "color": "a2eeef",
+    "description": "Requests for new functionality or improvements to existing features and workflows."
+  },
+  {
+    "name": "feedback",
+    "color": "373F3A",
+    "description": "User or stakeholder suggestions on UX, performance, or other improvements."
+  },
+  {
+    "name": "OS: iOS",
+    "color": "1D4ED8",
+    "description": "Issues or requests specific to iOS, including bugs or features for iPhone devices."
+  },
+  {
+    "name": "OS: iPadOS",
+    "color": "0EA5E9",
+    "description": "Bugs, requests, or feedback targeting iPadOS and its unique interface or behavior."
+  },
+  {
+    "name": "OS: macOS",
+    "color": "6366F1",
+    "description": "Issues, feedback, or requests specific to macOS and Mac device compatibility."
+  },
+  {
+    "name": "SPM",
+    "color": "7C3AED",
+    "description": "Issues or requests related to Swift Package Manager, like build errors or config issues."
+  }
+]
