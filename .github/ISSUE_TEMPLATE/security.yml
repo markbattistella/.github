@@ -1,8 +1,8 @@
-name: Security Issue
+name: Security issue
 
-description: Report a security vulnerability in a confidential manner.
+description: Report a security vulnerability confidentially.
 
-title: '🔒 Security Issue'
+title: 'Security Issue'
 
 labels: ["security"]
 
@@ -13,31 +13,29 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reporting a potential security issue!
-
-        Please provide as much detail as possible to help us investigate and resolve the issue.
+        Thanks for reporting a potential security issue.
 
         > [!CAUTION]
-        > Remember to mask any important and private information.
+        > Mask or redact any sensitive or private information before submitting.
 
         > [!IMPORTANT]
-        > This issue will be treated confidentially.
+        > This issue will be treated confidentially. For critical vulnerabilities, consider using the GitHub Security Advisory instead — see `Security > Report a Vulnerability` in this repository.
 
   - type: textarea
     attributes:
       label: Description
-      description: Describe the security issue in detail.
-      placeholder: "Provide a clear and concise description of the security issue."
+      description: A clear description of the vulnerability.
+      placeholder: "Describe the security issue in detail."
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Steps to reproduce
-      description: Provide a step-by-step process to reproduce the security issue.
+      description: How can the vulnerability be triggered?
       placeholder: |
-        1. First, I did this...
-        2. Then, I did that...
+        1. Do this...
+        2. Then this...
         ...
     validations:
       required: true
@@ -45,16 +43,15 @@ body:
   - type: textarea
     attributes:
       label: Potential impact
-      description: Describe the potential impact of the security issue.
-      placeholder: "Describe the potential impact or consequences of the security issue."
+      description: What could an attacker achieve by exploiting this?
+      placeholder: "Describe the potential consequences of the vulnerability."
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Mitigation
-      description: Suggest any potential fixes or mitigations for the issue.
-      placeholder: "Provide suggestions for mitigating or fixing the issue."
+      label: Suggested mitigation
+      description: If you have ideas for a fix or workaround, share them here.
     validations:
       required: false
 

@@ -1,8 +1,8 @@
 name: Feature request
 
-description: Suggest an idea for this project to enhance its functionality and user experience.
+description: Suggest an idea or improvement for this project.
 
-title: '✨ Feature Request'
+title: 'Feature Request'
 
 labels: ["enhancement"]
 
@@ -13,65 +13,49 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to provide a feature request!
+        Thanks for taking the time to suggest a feature!
 
-        Please give as much detail as possible about your idea. The more context and information provided, the better we can understand and evaluate your suggestion.
-
-        If English is not your first language, please don't hesitate to use your native language to make it easier for yourself.
+        Please provide as much detail as possible. The clearer your idea is, the easier it is to evaluate and implement.
 
         > [!TIP]
-        > Please attach screenshots, screen captures, or any visual mediums as seeing your idea might make it easier to implement.
+        > Attach screenshots or mockups if they help illustrate your idea.
 
   - type: textarea
     attributes:
-      label: Is your feature request related to a problem?
-      description: A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
-      placeholder: "Describe the problem or pain point you're facing."
+      label: Problem this feature would solve
+      description: What frustration or limitation is driving this request?
+      placeholder: "I always have to do X manually, which is slow and error-prone."
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Describe the solution you'd like
-      description: A clear and concise description of what you want to happen.
-      placeholder: "Describe your ideal solution or feature."
+      label: Proposed solution
+      description: Describe what you would like to see added or changed.
+      placeholder: "It would help if the app could automatically do X when Y happens."
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Describe alternatives you've considered
-      description: A clear and concise description of any alternative solutions or features you've considered.
-      placeholder: "Describe any alternative solutions or features you've considered."
+      label: Alternatives considered
+      description: Have you thought of other ways to solve this? Why did they not work?
+      placeholder: "I tried using X workaround but it does not handle Y correctly."
     validations:
       required: false
 
   - type: textarea
     attributes:
       label: Additional context
-      description: Add any other context about the feature request here.
-      placeholder: "Provide any additional context, or information."
+      description: Any other information, links, or examples that might be useful.
     validations:
       required: false
-
-  - type: checkboxes
-    id: other_labels
-    attributes:
-      label: Other Labels
-      description: Select additional labels if applicable.
-      options:
-        - label: Documentation
-          required: false
-        - label: UX
-          required: false
-        - label: API
-          required: false
 
   - type: checkboxes
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this feature request, you agree to follow our Code of Conduct.
+      description: By submitting this request, you agree to follow our Code of Conduct.
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true

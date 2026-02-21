@@ -1,8 +1,8 @@
 name: Bug report
 
-description: Report a bug in the code to help aid in fixing, identifying, and resolving the issue.
+description: Report a bug to help us identify, reproduce, and resolve the issue.
 
-title: '🐛 Bug Report'
+title: 'Bug Report'
 
 labels: ["bug", "triage"]
 
@@ -15,31 +15,27 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
 
-        Please provide as much information, imagery, and process as possible when reporting a bug. The more detail there is in the report, the easier it can be to reproduce and eventually fix.
-
-        Where possible, please provide a step-by-step process of how you encountered the bug, what was occurring, or details that may be helpful to debug.
-
-        If English is not your first language, please don't hesitate to use your native language to make it easier for yourself.
+        Please provide as much detail as possible — the more context you give, the easier it is to reproduce and fix.
 
         > [!TIP]
-        > Please attach screenshots, screen captures, or any visual mediums as seeing the issue may help in resolving it quicker.
+        > Attach screenshots or screen recordings if they help illustrate the issue.
 
   - type: textarea
     attributes:
       label: Describe the bug
-      description: Please be as clear and concise as possible.
-      placeholder: "The app crashed when I tapped on the refresh button in airplane mode."
+      description: A clear and concise description of what the bug is.
+      placeholder: "The app crashed when I tapped the refresh button while in aeroplane mode."
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Reproduction steps
-      description: "How do you trigger this bug? Please walk us through it step-by-step."
+      label: Steps to reproduce
+      description: Walk us through how to trigger the bug, step by step.
       placeholder: |
-        1. First, I opened the app
-        2. Then I turned on airplane mode
-        3. Next, I tapped on the refresh button
+        1. Open the app
+        2. Enable aeroplane mode
+        3. Tap the refresh button
         ...
     validations:
       required: true
@@ -47,36 +43,33 @@ body:
   - type: textarea
     attributes:
       label: Expected behaviour
-      description: What should have happened? What did you expect to occur?
-      placeholder: |
-        When I refreshed the app, it should have notified me that it had no internet. Maybe it should have asked to check my settings?
+      description: What did you expect to happen?
+      placeholder: "The app should have shown a message saying there is no internet connection."
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Device information
-      description: Please provide details about your device and environment.
+      description: Details about your device and environment.
       placeholder: |
-        **OS:** [e.g., Windows / macOS / iOS / Android]
-        **Version:** [e.g., iOS 14.3 / Android 10 / Windows 10]
+        **OS:** [e.g. macOS / iOS / iPadOS / Android]
+        **Version:** [e.g. iOS 18.2]
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Additional information
-      description: Anything extra to add? Information that didn't fit into a topic above?
-      placeholder: |
-        Any additional information that might be helpful in diagnosing the issue.
+      label: Logs and error messages
+      description: Paste any relevant log output here. It will be formatted automatically as code.
+      render: shell
     validations:
       required: false
 
   - type: textarea
     attributes:
-      label: Logs and error messages
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Additional information
+      description: Anything else that might help diagnose the issue?
     validations:
       required: false
 

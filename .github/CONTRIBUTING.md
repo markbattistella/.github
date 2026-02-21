@@ -1,15 +1,20 @@
 # Contributing
 
-When contributing to this repository, please first discuss the change you wish to make via issue or any othe specified method with the owners of this repository before making a change.
+Thank you for your interest in contributing! Please read through this guide before submitting any issues or pull requests.
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+## Before You Start
+
+Discuss any changes you wish to make via an issue or other agreed method with the repository owners before opening a pull request. This ensures effort is aligned and avoids duplicate work.
+
+Please also review and follow our Code of Conduct in all interactions.
 
 ## Pull Request Process
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
+1. Remove any install or build artefacts before finalising a build layer.
+2. Update `README.md` with details of any interface changes — this includes new environment variables, exposed ports, useful file locations, and container parameters.
+3. Name your pull request using the `yyyy-mm-dd - Description` format (e.g. `2026-01-31 - New feature`). This keeps the history consistent and easy to browse.
+4. A pull request may be merged once it has sign-off from the maintaining developer(s). If you do not have merge permissions, request a reviewer to merge it for you.
 
-1. Update the `README.md` with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
+## Versioning
 
-1. Increase the version numbers in any examples files and the `README.md` to the new version that this pull request would represent. The versioning scheme we use is [`SemVer`](http://semver.org/).
-
-1. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+This project uses base level [`SemVer`](http://semver.org/) with a `yy.mm.dd` date-based format without padded zeros. For example: `26.1.31`, not `26.01.31`.

@@ -6,13 +6,11 @@ We take security bugs in our projects seriously. We appreciate your efforts to r
 
 To report a security issue, you can use one of the following methods:
 
-1. **GitHub Security Advisory**
+1. **GitHub Security Advisory** — use the *Report a Vulnerability* button under `Security > Report a Vulnerability` in the affected repository.
 
-   Use the *Report a Vulnerability* button (if available) under the `Security > Report a Vulnerability` button. This is usually in the address of: `https://github.com/markbattistella/[your-repo]/security/advisories/new`.
+2. **Contact form** — reach out via [markbattistella.com/contact](https://markbattistella.com/contact).
 
-2. **Mastodon**: Contact us on Mastodon [@markbattistella@mastodon.au](https://mastodon.au/@markbattistella).
-
-3. **Security Issue GitHub Issue**: Open a new issue on our GitHub repository and use the "Security Issue" template to provide details about the vulnerability.
+3. **Social media** — send a direct message on Mastodon or Bluesky.
 
 After the initial reply to your report, we will aim to keep you informed of the progress towards a fix and full announcement, and may ask for additional information or guidance.
 
@@ -24,8 +22,6 @@ If you find a security bug in a third-party module that we use, please report it
 
 To learn more about securing your application, consider the following resources:
 
-- [OWASP Top Ten](https://owasp.org/www-project-top-ten/)
-- [CWE/SANS Top 25 Most Dangerous Software Errors](https://cwe.mitre.org/top25/archive/2020/2020_cwe_top25.html)
 - [Mozilla Developer Network (MDN) Web Security](https://developer.mozilla.org/en-US/docs/Web/Security)
 - [Security Best Practices on GitHub](https://docs.github.com/en/code-security)
 

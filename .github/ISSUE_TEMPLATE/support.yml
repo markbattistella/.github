@@ -1,8 +1,8 @@
-name: Support Request
+name: Support request
 
-description: Request help or support with using the project.
+description: Ask for help using the project.
 
-title: '🙋 Support Request'
+title: 'Support Request'
 
 labels: ["support"]
 
@@ -13,44 +13,40 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for reaching out for support!
+        Thanks for reaching out!
 
-        Please provide as much detail as possible about your issue so we can assist you effectively.
+        Please describe your issue clearly so we can assist you as quickly as possible.
 
   - type: textarea
     attributes:
-      label: Describe the issue
-      description: Describe the issue you are facing. Include any relevant error messages or steps to reproduce the problem.
-      placeholder: "Describe your issue in detail."
+      label: What do you need help with?
+      description: Describe the problem or question as clearly as you can.
+      placeholder: "I am trying to do X but I keep getting Y error."
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Steps to reproduce
-      description: Provide a step-by-step process to reproduce the issue, if applicable.
-      placeholder: |
-        1. First, I did this...
-        2. Then, I did that...
-        ...
+      label: What have you already tried?
+      description: Let us know what you have attempted so we do not suggest things you have already ruled out.
+      placeholder: "I followed the README instructions and also tried X, but it did not work."
     validations:
       required: false
 
   - type: textarea
     attributes:
       label: Environment
-      description: Provide details about your environment (e.g., OS, software version).
+      description: Details about your setup.
       placeholder: |
-        **OS:** [e.g., Windows / macOS / Linux]
-        **Version:** [e.g., 1.0.0]
+        **OS:** [e.g. macOS 15.2 / iOS 18.2]
+        **Version:** [e.g. 26.1.31]
     validations:
       required: false
 
   - type: textarea
     attributes:
       label: Additional context
-      description: Provide any additional context or information that might be helpful.
-      placeholder: "Any additional context or information."
+      description: Anything else that might be relevant.
     validations:
       required: false
 

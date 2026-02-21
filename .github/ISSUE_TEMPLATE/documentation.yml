@@ -1,8 +1,8 @@
-name: Documentation Request
+name: Documentation request
 
-description: Request improvements or additions to the project's documentation.
+description: Report missing, incorrect, or unclear documentation.
 
-title: '📚 Documentation Request'
+title: 'Documentation Request'
 
 labels: ["documentation"]
 
@@ -13,23 +13,30 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting improvements or additions to our documentation!
+        Thanks for helping improve the documentation!
 
-        Please provide as much detail as possible to help us understand your request.
+        Please describe what is missing, wrong, or hard to understand so we can address it effectively.
 
   - type: textarea
     attributes:
-      label: Description
-      description: Describe what needs to be added or improved in the documentation.
-      placeholder: "Provide a clear and concise description of the documentation issue."
+      label: What page or section is affected?
+      description: Link to or describe the specific documentation that needs attention.
+      placeholder: "The README section on installation does not mention the required dependencies."
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Context
-      description: Provide any additional context, links, or references related to the documentation request.
-      placeholder: "Include any relevant links or context for the documentation request."
+      label: What is the issue?
+      description: Is it missing, incorrect, outdated, or unclear?
+      placeholder: "The example command shown will fail if X is not installed first."
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Suggested improvement
+      description: If you have a suggestion for how it should be written, include it here.
     validations:
       required: false
 

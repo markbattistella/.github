@@ -36,7 +36,7 @@ This Code of Conduct applies within all community spaces, and also applies when 
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported to the community leaders responsible for enforcement on [Github][Github] contact lines. All complaints will be reviewed and investigated promptly and fairly.
+Instances of abusive, harassing, or otherwise unacceptable behaviour may be reported via [GitHub][Github]. All complaints will be reviewed and investigated promptly and fairly.
 
 All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
@@ -54,8 +54,7 @@ Community leaders will follow these Community Impact Guidelines in determining t
 
 **Community Impact**: A violation through a single incident or series of actions.
 
-**Consequence**: A warning with consequences for continued behaviour. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or
-permanent ban.
+**Consequence**: A warning with consequences for continued behaviour. No interaction with the people involved, including unsolicited interaction with those enforcing the Code of Conduct, for a specified period of time. This includes avoiding interactions in community spaces as well as external channels like social media. Violating these terms may lead to a temporary or permanent ban.
 
 ### 3. Temporary Ban
 
@@ -65,20 +64,20 @@ permanent ban.
 
 ### 4. Permanent Ban
 
-**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behaviour,  harassment of an individual, or aggression toward or disparagement of classes of individuals.
+**Community Impact**: Demonstrating a pattern of violation of community standards, including sustained inappropriate behaviour, harassment of an individual, or aggression toward or disparagement of classes of individuals.
 
 **Consequence**: A permanent ban from any sort of public interaction within the community.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][cc_homepage], version 2.0, [available here][cc_version_2].
+This Code of Conduct is adapted from the [Contributor Covenant][cc_homepage], version 2.1, [available here][cc_version_21].
 
 Community Impact Guidelines were inspired by [Mozilla's code of conduct enforcement ladder](https://github.com/mozilla/diversity).
 
 For answers to common questions about this code of conduct, [see the FAQ][cc_questions]. Translations are [available here][cc_translations].
 
 [cc_homepage]: https://www.contributor-covenant.org
-[cc_version_2]: https://www.contributor-covenant.org/version/2/0/code_of_conduct.html
+[cc_version_21]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
 [cc_questions]: https://www.contributor-covenant.org/faq
 [cc_translations]: https://www.contributor-covenant.org/translations
 [Github]: https://github.com/markbattistella
